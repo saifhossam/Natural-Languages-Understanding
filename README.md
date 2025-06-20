@@ -1,10 +1,10 @@
-# 💬 Aspect-Based Sentiment Analysis for Customer Reviews
+# Aspect-Based Sentiment Analysis for Customer Reviews
 
 This project focuses on extracting product aspects (e.g., "battery", "camera") from customer reviews and classifying their sentiment polarity (positive, negative, or neutral). It is particularly useful for analyzing e-commerce feedback to highlight product strengths and weaknesses.
 
 ---
 
-**📦 Dataset**
+**Dataset**
 
 * **Source**: SemEval-2014 Task 4 (Laptops & Restaurants)
 * **Format**: PyABSA-style XML files
@@ -28,7 +28,7 @@ This project focuses on extracting product aspects (e.g., "battery", "camera") f
 
 ---
 
-**🧠 Models & Fine-Tuning: LoRA**
+**Models & Fine-Tuning: LoRA**
 
 * **Technique**: LoRA (Low-Rank Adaptation)
 
@@ -46,7 +46,7 @@ This project focuses on extracting product aspects (e.g., "battery", "camera") f
 
 ---
 
-**📊 Evaluation Metrics**
+**Evaluation Metrics**
 
 * **ATE**:
 
@@ -59,7 +59,7 @@ This project focuses on extracting product aspects (e.g., "battery", "camera") f
 
 ---
 
-**🧪 Results**
+**Results**
 
 * Normal vs. LoRA fine-tuning performance compared
 * Training/evaluation plots provided
@@ -67,7 +67,7 @@ This project focuses on extracting product aspects (e.g., "battery", "camera") f
 
 ---
 
-**⚙️ Structured Pipeline Output**
+**Structured Pipeline Output**
 
 * **Aspect Term Extraction**:
 
@@ -86,7 +86,7 @@ Output: {'pizza': 'positive', 'service': 'negative'}
 
 ---
 
-**👥 Team Members**
+**Team Members**
 
 1. Aly Mohammed Aly (20210581)
 2. Seif Hossam Aldin (20210441)
@@ -96,7 +96,7 @@ Output: {'pizza': 'positive', 'service': 'negative'}
 
 ---
 
-**✅ Key Takeaways**
+**Key Takeaways**
 
 * Efficient aspect-based sentiment classification using LoRA fine-tuning
 * Real-world applicability in product review mining
